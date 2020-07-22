@@ -6,7 +6,7 @@ body{
 section{
     width: 100%;
     height: 100%;
-    background: #f471f8;
+    background: #8f8e8e;
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
@@ -15,7 +15,7 @@ section{
 .wrapper{
     height: 100%;
     width: 50%;
-    background: #f55757;
+    background: url(ghoul.jpg);
     overflow: hidden;
     color: #eaffea;
     position: absolute;
