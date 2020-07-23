@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #353b48;
+    background: #000000;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -17,19 +17,20 @@ body{
     height: 60px;
     background: none;
     border: 4px solid;
-    color: #3498db;
+    color: #d592f5;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 16px;
+    position: relative;
 }
 
 .btn::before, .btn::after{
-    content: '';
+    content: "";
     position: absolute;
     width: 14px;
     height: 4px;
-    background: #353b48;
+    background: #000000;
     transform: skewX(50deg);
     transition: 0.4s linear;
 }
