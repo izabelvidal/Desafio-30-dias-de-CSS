@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #262626;
+    background: url(fundo.jpg);
 }
 
 .center{
@@ -20,7 +21,7 @@ body{
     font-size: 20px;
     text-align: center;
     line-height: 200px;
-    font-family: verdana;
+    font-family: 'Mulish', sans-serif;
     text-transform: uppercase;
     animation: animate 3s linear infinite;
 }
