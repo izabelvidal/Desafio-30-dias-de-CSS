@@ -1,0 +1,28 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+h1
+{
+    color: #e771f7;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+span::before
+{
+    content: '';
+    animation: word-swith 3s infinite;
+}
+
+@keyframes word-swith 
+{
+    0% {content: '💻'}
+
+    50%{content: '🐱';}
+
+    100%{content: '🎸';}
+}
