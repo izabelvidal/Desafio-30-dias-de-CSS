@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background: #1b1b1b;
+}
+
+p{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 120px;
+    line-height: 180px;
+    text-transform: uppercase;
+    background: url(img.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 15s linear infinite;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}
