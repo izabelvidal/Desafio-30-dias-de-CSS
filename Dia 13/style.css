@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #1d1d1d;
+}
+
+ul{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    font-size: 5em;
+    letter-spacing: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateX(-50%);
+        Letter-spacing: 20px;
+        opacity: 0;
+        color: rgb(110, 0, 153);
+    }
+    10%{
+        opacity: 1;
+    }
+    50%{
+        letter-spacing: -20px;
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(50px);
+        Letter-spacing: 20px;
+        opacity: 0;
+        color: #00f;
+    }
+}
+
+ul li:nth-child(1){
+    animation-delay: .0s;
+}
+
+ul li:nth-child(2){
+    animation-delay: .2s;
+}
+
+ul li:nth-child(3){
+    animation-delay: .4s;
+}
+
+ul li:nth-child(4){
+    animation-delay: .6s;
+}
+
+ul li:nth-child(5){
+    animation-delay: .8s;
+}
+
+ul li:nth-child(6){
+    animation-delay: 1s;
+}
+
+ul li:nth-child(7){
+    animation-delay: 1.2s;
+}
