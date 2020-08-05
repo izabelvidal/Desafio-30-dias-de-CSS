@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #b26ef1;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: 15px;
+    font-family: 'Slabo 27px', serif;
+    text-shadow: 0 1px 0 #ecc0f0
+                 0 2px 0 #ecc0f0
+                 0 3px 0 #ecc0f0
+                 0 4px 0 #ecc0f0
+                 0 30px 5px rgb(190, 147, 230);
+    animation: float 1s linear infinite alternate;
+}
+
+@keyframes float{
+    from{
+        transform: rotate(5deg);
+    }
+    to{
+        transform: rotate(-5deg);
+    }
+}
