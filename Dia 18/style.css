@@ -24,6 +24,7 @@ ul li{
     font-size: 6em;
     font-weight: bold;
     letter-spacing: 10px;
+    transition: 2s;
 }
 
 /*orgulhosa disso aqui*/
