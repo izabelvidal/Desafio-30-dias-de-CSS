@@ -5,7 +5,7 @@ body{
     background: #1b1b1b;
 }
 
-.center{
+.centro{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,6 +26,7 @@ ul li{
     letter-spacing: 10px;
 }
 
+/*orgulhosa disso aqui*/
 ul:hover li{
     animation: animate 2s linear infinite;
 }
